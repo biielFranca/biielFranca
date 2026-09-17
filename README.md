@@ -67,6 +67,17 @@ inteiro — ~6.000 linhas de Python, sendo 1.025 só no laço de orquestração:
 | 🧠 **Contexto gerenciado** | histórico podado por limite, resultados de ferramenta reinjetados no laço, memória persistida e sincronizada entre PC e celular |
 | 🛡️ **Limite de ação** | ação destrutiva não executa direto: o agente propõe e só roda após confirmação explícita |
 
+
+**A primeira vez foi fora de um cargo técnico.** Como jovem aprendiz de
+administração, percebi uma etapa do processo que dava para conferir
+automaticamente e escrevi agentes verificadores para o time. Ninguém pediu e não
+era minha função — era um problema que estava na minha frente todo dia.
+
+Também escrevi, por diversão, um harness em Python para orquestrar tarefas
+diárias, sob medida para uma necessidade bem específica. O HD corrompeu e o
+código se perdeu inteiro — não sobrou repositório para mostrar, mas foi onde eu
+mexi pela primeira vez no laço de orquestração em vez de só chamar a API.
+
 **No desenvolvimento**, agente é meu método principal — com biblioteca de prompts
 por tipo de tarefa (hardening de segurança, testes, code review, migrations) e
 documentação viva que o agente lê antes de escrever código.
