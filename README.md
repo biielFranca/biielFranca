@@ -47,6 +47,16 @@ Não é só pedir código para a IA. Construo os sistemas que fazem um agente
 funcionar: definição de ferramentas, laço de orquestração, memória e limite de
 ação.
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
+  <img src="https://img.shields.io/badge/ChatGPT-412991?style=for-the-badge&logo=openai&logoColor=white" alt="ChatGPT" />
+  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini" />
+  <img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge&logo=deepseek&logoColor=white" alt="DeepSeek" />
+  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" />
+  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama" />
+  <img src="https://img.shields.io/badge/LM_Studio-4A29B8?style=for-the-badge" alt="LM Studio" />
+</p>
+
 [**S.T.O.R.M.Y**](https://github.com/biielFranca/S.T.O.R.M.Y) é onde isso está por
 inteiro — ~6.000 linhas de Python, sendo 1.025 só no laço de orquestração:
 
