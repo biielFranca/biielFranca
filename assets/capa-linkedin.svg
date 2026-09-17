@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1584 396" width="1584" height="396">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="55%" stop-color="#121821"/>
+      <stop offset="100%" stop-color="#171d29"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4f8cff"/>
+      <stop offset="50%" stop-color="#7c5cff"/>
+      <stop offset="100%" stop-color="#26d0a8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.72" cy="0.3" r="0.6">
+      <stop offset="0%" stop-color="#4f8cff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#4f8cff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="win" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4f8cff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#7c5cff" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1584" height="396" fill="url(#bg)"/>
+  <rect width="1584" height="396" fill="url(#glow)"/>
+  <rect x="0" y="0" width="1584" height="5" fill="url(#accent)"/>
+
+  <!-- bloco de texto: comeca em x=470 para nao ficar sob a foto de perfil -->
+  <g transform="translate(470, 118)">
+    <text x="0" y="0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="46" font-weight="700" fill="#e6edf3" letter-spacing="-0.5">Desenvolvedor Full-Stack</text>
+    <text x="2" y="42" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" fill="#8b949e">Aplicativos para desktop, mobile e web &#183; Engenharia de agentes de IA</text>
+    <rect x="2" y="68" width="58" height="3" rx="1.5" fill="url(#accent)"/>
+
+    <g transform="translate(2, 112)">
+      <rect x="0" y="-19" width="26" height="26" rx="6" fill="#FFD700" opacity="0.16"/>
+      <text x="7" y="0" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#FFD700">&#9733;</text>
+      <text x="40" y="0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="19" font-weight="600" fill="#d7c98a">1&#186; lugar &#8212; 2&#170; Hackathon da Mobiliza&#231;&#227;o Popular</text>
+    </g>
+
+    <text x="2" y="160" font-family="Consolas, Menlo, monospace" font-size="17" fill="#6e7681">TypeScript &#183; React &#183; Next.js &#183; Electron &#183; Tauri &#183; Supabase &#183; Python</text>
+    <text x="2" y="192" font-family="Consolas, Menlo, monospace" font-size="16" fill="#4f8cff">github.com/biielFranca</text>
+  </g>
+
+  <!-- motivo: janela desktop + celular, a direita -->
+  <g transform="translate(1268, 120)" opacity="0.9">
+    <rect x="0" y="0" width="196" height="126" rx="10" fill="#0b0f16" stroke="url(#win)" stroke-width="1.5"/>
+    <rect x="0" y="0" width="196" height="24" rx="10" fill="#131a24"/>
+    <rect x="0" y="14" width="196" height="10" fill="#131a24"/>
+    <circle cx="17" cy="12" r="3.6" fill="#ff5f57"/><circle cx="32" cy="12" r="3.6" fill="#febc2e"/><circle cx="47" cy="12" r="3.6" fill="#28c840"/>
+    <rect x="17" y="44" width="112" height="6" rx="3" fill="#2a3444"/>
+    <rect x="17" y="60" width="162" height="6" rx="3" fill="#1f2735"/>
+    <rect x="17" y="76" width="82" height="6" rx="3" fill="#1f2735"/>
+    <rect x="17" y="96" width="56" height="15" rx="4" fill="#4f8cff" opacity="0.45"/>
+
+    <rect x="140" y="56" width="70" height="124" rx="12" fill="#0b0f16" stroke="url(#win)" stroke-width="1.5"/>
+    <rect x="164" y="64" width="22" height="3" rx="1.5" fill="#2a3444"/>
+    <rect x="150" y="80" width="50" height="6" rx="3" fill="#2a3444"/>
+    <rect x="150" y="94" width="36" height="6" rx="3" fill="#1f2735"/>
+    <rect x="150" y="108" width="44" height="6" rx="3" fill="#1f2735"/>
+    <rect x="150" y="130" width="50" height="24" rx="5" fill="#26d0a8" opacity="0.3"/>
+  </g>
+</svg>
