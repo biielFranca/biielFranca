@@ -88,15 +88,6 @@ Controla o PC, o Spotify, busca na web e analisa a tela.
 
 ---
 
-## GitHub
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=biielFranca&show_icons=true&hide_border=true&theme=tokyonight&locale=pt-br" alt="Estatísticas" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=biielFranca&layout=compact&hide_border=true&theme=tokyonight&locale=pt-br&langs_count=8" alt="Linguagens mais usadas" />
-</p>
-
----
-
 <p align="center">
   <a href="mailto:biel.ribeirofranca@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
