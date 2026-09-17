@@ -13,6 +13,7 @@
   <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=black" alt="Supabase" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Claude_API-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude API" />
 </p>
 
 ---
@@ -40,24 +41,29 @@ oportunidade na área.**
 
 ---
 
-## 🤖 Como trabalho com IA
+## 🤖 Engenharia de agentes
 
-Desenvolvimento assistido por agente não é algo que eu uso de vez em quando — é
-meu método padrão, e dá para conferir no histórico:
+Não é só pedir código para a IA. Construo os sistemas que fazem um agente
+funcionar: definição de ferramentas, laço de orquestração, memória e limite de
+ação.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/295_de_321_commits-construídos_em_par_com_IA-7C5CFF?style=for-the-badge" alt="295 de 321 commits" />
-</p>
+[**S.T.O.R.M.Y**](https://github.com/biielFranca/S.T.O.R.M.Y) é onde isso está por
+inteiro — ~6.000 linhas de Python, sendo 1.025 só no laço de orquestração:
 
-- **Biblioteca de prompts própria**, organizada por tipo de tarefa — hardening de segurança, geração de testes, code review e migrations de banco
-- **Documentação viva** em cada projeto: arquitetura, decisões e registro de pendências que o agente lê antes de escrever código
-- **Revisão é minha.** O agente acelera; entender o que entrou no commit continua sendo trabalho meu — foi assim que achei e corrigi um RLS que liberava dado que não devia
+| | |
+|---|---|
+| 🧰 **16 ferramentas** | cada uma com `input_schema` JSON — controle do PC, leitura de tela, Spotify, WhatsApp, busca web, descoberta de API |
+| 🔀 **Roteamento entre modelos** | um modelo local classifica a intenção e devolve JSON estruturado; só o que precisa de dado externo escala para a nuvem com ferramentas — latência e custo baixos no caso comum |
+| 🧠 **Contexto gerenciado** | histórico podado por limite, resultados de ferramenta reinjetados no laço, memória persistida e sincronizada entre PC e celular |
+| 🛡️ **Limite de ação** | ação destrutiva não executa direto: o agente propõe e só roda após confirmação explícita |
 
-E também **construo** com IA, não só **com a ajuda** dela:
+**No desenvolvimento**, agente é meu método principal — com biblioteca de prompts
+por tipo de tarefa (hardening de segurança, testes, code review, migrations) e
+documentação viva que o agente lê antes de escrever código.
 
-> [**S.T.O.R.M.Y**](https://github.com/biielFranca/S.T.O.R.M.Y) — assistente com um roteador
-> de três camadas que decide, a cada mensagem, se a resposta vem do modelo rodando
-> na própria máquina ou da API na nuvem. Rápido quando dá, forte quando precisa.
+E a revisão é minha: foi assim que encontrei e corrigi um RLS que liberava dado
+que não devia. O agente acelera; entender o que entra no commit continua sendo
+meu trabalho.
 
 ---
 
