@@ -1,90 +1,108 @@
 <h1 align="center">Gabriel França</h1>
 
 <p align="center">
-  Desenvolvedor full-stack • Aplicativos para desktop, mobile e web
+  <b>Desenvolvedor full-stack</b> · Aplicativos para desktop, mobile e web
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,nodejs,electron,rust,python,cs,supabase,postgres,vercel" alt="Stack" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white" alt="Electron" />
+  <img src="https://img.shields.io/badge/Tauri-24C8DB?style=for-the-badge&logo=tauri&logoColor=black" alt="Tauri" />
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=black" alt="Supabase" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
 </p>
 
 ---
 
-## Sobre
+## 🚀 Sobre
 
-Construo aplicativos que rodam em produção e resolvem um problema concreto —
-normalmente um problema que eu mesmo tinha. A planilha de 488 abas do caixa, os
-três painéis de delivery abertos ao mesmo tempo, o controle de gastos espalhado
-entre bancos diferentes.
+Construo software para resolver problemas que eu vejo acontecer. Trabalho numa
+lanchonete, e três dos projetos aqui nasceram de coisas que davam errado no
+balcão: a planilha de 488 abas do fechamento de caixa, os três painéis de
+delivery abertos ao mesmo tempo, o bolão no papel.
 
-Trabalho o produto inteiro: interface, banco de dados, regras de acesso,
-integração com API externa e o empacotamento final — seja um `.exe`, um APK ou
-um site. Uso TypeScript na maior parte, com Electron, Tauri e Capacitor quando
-precisa sair do navegador, e Supabase quando o Postgres resolve.
+Entrego o produto inteiro — interface, banco de dados, regras de acesso,
+integração com API externa e o empacotamento final, seja um `.exe`, um APK ou um
+site no ar. TypeScript na maior parte, com Electron, Tauri e Capacitor quando
+precisa sair do navegador.
 
-Estou em formação e aprendendo em público: cada repositório aqui é um projeto
-que uso ou usei de verdade.
+Estou em formação e aprendendo em público: todo repositório aqui é um projeto
+que eu uso ou usei de verdade.
 
 ---
 
-## Projetos
+## 🤖 Como trabalho com IA
 
-### [Minhas Finanças](https://github.com/biielFranca/minhas-financas)
+Desenvolvimento assistido por agente não é algo que eu uso de vez em quando — é
+meu método padrão, e dá para conferir no histórico:
+
+<p align="center">
+  <img src="https://img.shields.io/badge/295_de_321_commits-construídos_em_par_com_IA-7C5CFF?style=for-the-badge" alt="295 de 321 commits" />
+</p>
+
+- **Biblioteca de prompts própria**, organizada por tipo de tarefa — hardening de segurança, geração de testes, code review e migrations de banco
+- **Documentação viva** em cada projeto: arquitetura, decisões e registro de pendências que o agente lê antes de escrever código
+- **Revisão é minha.** O agente acelera; entender o que entrou no commit continua sendo trabalho meu — foi assim que achei e corrigi um RLS que liberava dado que não devia
+
+E também **construo** com IA, não só **com a ajuda** dela:
+
+> [**S.T.O.R.M.Y**](https://github.com/biielFranca/S.T.O.R.M.Y) — assistente com um roteador
+> de três camadas que decide, a cada mensagem, se a resposta vem do modelo rodando
+> na própria máquina ou da API na nuvem. Rápido quando dá, forte quando precisa.
+
+---
+
+## 💼 Projetos
+
+### 💰 [Minhas Finanças](https://github.com/biielFranca/minhas-financas)
 **Windows e Android com a mesma base de código.** Puxa extratos, cartões e
-investimentos direto dos bancos pela API do Pluggy (Open Finance), guarda na
-nuvem e sincroniza sozinho a cada 6 horas, com o app fechado.
+investimentos direto dos bancos pela API do Pluggy (Open Finance) e sincroniza
+sozinho a cada 6 horas, com o aplicativo fechado.
 
-O Client Secret do banco fica no Vault do Supabase e o aplicativo não consegue
-lê-lo de volta. Regras por linha em 18 tabelas e views `security_invoker`.
+O segredo do banco fica no Vault do Supabase e o app não consegue lê-lo de volta.
+Regras por linha em 18 tabelas.
 
-`TypeScript` `Electron` `Capacitor` `Supabase` `Pluggy` `Chart.js`
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" /> <img src="https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white" /> <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=black" /> <img src="https://img.shields.io/badge/Open_Finance-00A868?style=flat-square" />
 
----
+### 🧾 [Fechamento de Caixa](https://github.com/biielFranca/caixa)
+**Substituiu uma planilha de 488 abas.** Fechamento diário e folha de pagamento
+da lanchonete, com os 10.570 lançamentos históricos migrados sem perder nada.
 
-### [Fechamento de Caixa](https://github.com/biielFranca/caixa) · [ao vivo](https://caixa-lyart.vercel.app)
-**Substituiu uma planilha de 488 abas.** Fechamento diário de caixa e folha de
-pagamento de uma lanchonete, com os 10.570 lançamentos históricos migrados sem
-perder nada.
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=black" />
+&nbsp;[![Ao vivo](https://img.shields.io/badge/▶_ver_ao_vivo-0A66C2?style=flat-square)](https://caixa-lyart.vercel.app)
 
-`Next.js` `TypeScript` `Supabase` `Vercel`
+### 🍔 [Hamburgueria Dispatch](https://github.com/biielFranca/hamburgueria-dispatch)
+**Um painel no lugar de três.** Junta os pedidos do iFood, Keeta e 99Food numa
+tela só, classifica automaticamente, despacha os motoboys e mostra as entregas
+no mapa. Aplicativo nativo de Windows via Tauri 2.
 
----
+<img src="https://img.shields.io/badge/Tauri_2-24C8DB?style=flat-square&logo=tauri&logoColor=black" /> <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" /> <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=black" />
 
-### [Hamburgueria Dispatch](https://github.com/biielFranca/hamburgueria-dispatch)
-**Um painel no lugar de três.** Central de operações que junta os pedidos do
-iFood, Keeta e 99Food numa tela só, classifica automaticamente, despacha os
-motoboys e mostra as entregas no mapa.
-
-Aplicativo nativo de Windows via Tauri 2 — sem o peso do Electron.
-
-`Tauri 2` `React 19` `TypeScript` `Rust` `Supabase` `Leaflet`
-
----
-
-### [Thailândia Store](https://github.com/biielFranca/thailandia_store) · [ao vivo](https://thailandia-store.vercel.app)
-**Loja online completa**, de camisas de futebol importadas: catálogo, carrinho,
+### 👕 [Thailândia Store](https://github.com/biielFranca/thailandia_store)
+**Loja online completa** de camisas de futebol importadas: catálogo, carrinho,
 checkout com PIX e cartão pelo Mercado Pago e e-mails transacionais.
 
-`Next.js 16` `TypeScript` `Supabase` `Mercado Pago` `Resend`
+<img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white" /> <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=black" /> <img src="https://img.shields.io/badge/Mercado_Pago-00B1EA?style=flat-square&logo=mercadopago&logoColor=white" />
+&nbsp;[![Ao vivo](https://img.shields.io/badge/▶_ver_ao_vivo-0A66C2?style=flat-square)](https://thailandia-store.vercel.app)
 
----
-
-### [Bolão da Copa](https://github.com/biielFranca/bolao-copa) · [ao vivo](https://bolao-copa-six.vercel.app)
+### ⚽ [Bolão da Copa](https://github.com/biielFranca/bolao-copa)
 **Bolão da Copa do Mundo para a lanchonete.** Login por celular, palpites com
 trava de horário, ranking automático e painel de administração.
 
-`Next.js` `TypeScript` `Supabase`
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=black" />
+&nbsp;[![Ao vivo](https://img.shields.io/badge/▶_ver_ao_vivo-0A66C2?style=flat-square)](https://bolao-copa-six.vercel.app)
 
----
-
-### [S.T.O.R.M.Y](https://github.com/biielFranca/S.T.O.R.M.Y)
+### ⛈️ [S.T.O.R.M.Y](https://github.com/biielFranca/S.T.O.R.M.Y)
 **Assistente de IA híbrida, local e na nuvem.** Um classificador de três camadas
-decide se a resposta vem do modelo rodando na própria máquina (LM Studio/Ollama)
-ou da API da Claude — velocidade quando dá, qualidade quando precisa.
-
+decide se a resposta vem do modelo na própria máquina ou da API da Claude.
 Controla o PC, o Spotify, busca na web e analisa a tela.
 
-`Python` `LM Studio` `Ollama` `Claude API`
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Claude_API-D97757?style=flat-square&logo=anthropic&logoColor=white" /> <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" /> <img src="https://img.shields.io/badge/LM_Studio-4A29B8?style=flat-square" />
+
+---
 
 ---
 

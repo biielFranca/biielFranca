@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Gabriel França — Desenvolvedor full-stack: desktop, mobile e web">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="55%" stop-color="#11161f"/>
+      <stop offset="100%" stop-color="#161b26"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4f8cff"/>
+      <stop offset="50%" stop-color="#7c5cff"/>
+      <stop offset="100%" stop-color="#26d0a8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.28" r="0.62">
+      <stop offset="0%" stop-color="#4f8cff" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#4f8cff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="win" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4f8cff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#7c5cff" stop-opacity="0.35"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#glow)"/>
+  <rect x="0" y="0" width="1200" height="4" fill="url(#accent)"/>
+
+  <g transform="translate(72, 96)">
+    <text x="0" y="0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="62" font-weight="700" fill="#e6edf3" letter-spacing="-1">Gabriel França</text>
+    <text x="3" y="46" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="23" font-weight="400" fill="#8b949e">Desenvolvedor full-stack · desktop, mobile e web</text>
+    <rect x="3" y="76" width="54" height="3" rx="1.5" fill="url(#accent)"/>
+    <text x="3" y="122" font-family="Consolas, Menlo, monospace" font-size="17" fill="#6e7681">problema real no balcão &#8594; software em produção</text>
+  </g>
+
+  <g transform="translate(838, 84)" opacity="0.95">
+    <rect x="0" y="18" width="210" height="134" rx="10" fill="#0b0f16" stroke="url(#win)" stroke-width="1.6"/>
+    <rect x="0" y="18" width="210" height="26" rx="10" fill="#131a24"/>
+    <rect x="0" y="34" width="210" height="10" fill="#131a24"/>
+    <circle cx="18" cy="31" r="4" fill="#ff5f57"/><circle cx="34" cy="31" r="4" fill="#febc2e"/><circle cx="50" cy="31" r="4" fill="#28c840"/>
+    <rect x="18" y="62" width="120" height="7" rx="3.5" fill="#2a3444"/>
+    <rect x="18" y="80" width="174" height="7" rx="3.5" fill="#1f2735"/>
+    <rect x="18" y="98" width="88" height="7" rx="3.5" fill="#1f2735"/>
+    <rect x="18" y="120" width="60" height="16" rx="4" fill="#4f8cff" opacity="0.5"/>
+
+    <rect x="150" y="76" width="74" height="132" rx="12" fill="#0b0f16" stroke="url(#win)" stroke-width="1.6"/>
+    <rect x="176" y="84" width="22" height="3" rx="1.5" fill="#2a3444"/>
+    <rect x="160" y="100" width="54" height="6" rx="3" fill="#2a3444"/>
+    <rect x="160" y="114" width="40" height="6" rx="3" fill="#1f2735"/>
+    <rect x="160" y="128" width="48" height="6" rx="3" fill="#1f2735"/>
+    <rect x="160" y="150" width="54" height="26" rx="5" fill="#26d0a8" opacity="0.32"/>
+  </g>
+</svg>
