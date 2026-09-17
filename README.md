@@ -1,4 +1,4 @@
-<h1 align="center">Gabriel França</h1>
+<h1 align="center">Gabriel Ribeiro de França</h1>
 
 <p align="center">
   <b>Desenvolvedor full-stack</b> · Aplicativos para desktop, mobile e web
@@ -19,18 +19,20 @@
 
 ## 🚀 Sobre
 
-Construo software para resolver problemas que eu vejo acontecer. Trabalho numa
-lanchonete, e três dos projetos aqui nasceram de coisas que davam errado no
-balcão: a planilha de 488 abas do fechamento de caixa, os três painéis de
-delivery abertos ao mesmo tempo, o bolão no papel.
+Cresci dentro de uma hamburgueria. Desde os 10 anos trabalho na **Lau Burguer**,
+o negócio da minha família, e aos 12 comecei a programar — as duas coisas nunca
+andaram separadas. Três dos projetos aqui nasceram de problemas que eu via
+acontecer no balcão: a planilha de 488 abas do fechamento de caixa, os três
+painéis de delivery abertos ao mesmo tempo, o bolão anotado no papel.
 
 Entrego o produto inteiro — interface, banco de dados, regras de acesso,
 integração com API externa e o empacotamento final, seja um `.exe`, um APK ou um
 site no ar. TypeScript na maior parte, com Electron, Tauri e Capacitor quando
 precisa sair do navegador.
 
-Estou em formação e aprendendo em público: todo repositório aqui é um projeto
-que eu uso ou usei de verdade.
+O resto nasce de curiosidade mesmo — uma assistente de IA que roda na minha
+própria máquina, um jogo multiplayer de dedução. Aprendo em público: todo
+repositório aqui é um projeto que eu uso ou usei de verdade.
 
 ---
 
