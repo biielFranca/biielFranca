@@ -34,6 +34,10 @@ O resto nasce de curiosidade mesmo — uma assistente de IA que roda na minha
 própria máquina, um jogo multiplayer de dedução. Aprendo em público: todo
 repositório aqui é um projeto que eu uso ou usei de verdade.
 
+Ainda não trabalhei como desenvolvedor: cada projeto aqui nasceu de uma
+necessidade minha ou de uma vontade de construir. **Busco a primeira
+oportunidade na área.**
+
 ---
 
 ## 🤖 Como trabalho com IA
@@ -106,10 +110,11 @@ Controla o PC, o Spotify, busca na web e analisa a tela.
 
 ---
 
----
-
 <p align="center">
   <a href="mailto:biel.ribeirofranca@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  <a href="https://www.linkedin.com/in/gabriel-ribeiro-de-fran%C3%A7a/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </p>
