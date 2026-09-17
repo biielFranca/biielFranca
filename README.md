@@ -88,6 +88,28 @@ meu trabalho.
 
 ---
 
+## 🏆 1º lugar — 2ª Hackathon da Mobilização Popular
+
+<p align="center">
+  <img src="https://img.shields.io/badge/1%C2%BA_lugar_geral-FFD700?style=for-the-badge&logoColor=black" alt="1º lugar geral" />
+  <img src="https://img.shields.io/badge/junho_de_2026-24292F?style=for-the-badge" alt="junho de 2026" />
+</p>
+
+**[Veracity](https://github.com/cb-hackathon/CODEBOYS_VERACITY)** — plataforma
+open source de combate à desinformação, construída em um fim de semana com a
+equipe CodeBoys. **Fui responsável por toda a integração de IA com o site**,
+atuei no front-end e apresentei o projeto à banca avaliadora.
+
+Três pilares — detectar, educar e prevenir: hub de checagem que analisa links,
+textos e imagens com IA a partir de fontes confiáveis; mapa de calor da
+desinformação regionalizado por estado; quiz gamificado de letramento digital.
+
+<img src="https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white" /> <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" /> <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+
+<sub>Promovida pela UEE-SP e pelo Centro de Estudos da Mídia Alternativa Barão de Itararé.</sub>
+
+---
+
 ## 💼 Projetos
 
 ### 💰 [Minhas Finanças](https://github.com/biielFranca/minhas-financas)
